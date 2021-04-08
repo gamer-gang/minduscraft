@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "minduscraft",
+  "version": "${version}",
+  "name": "Minduscraft",
+  "description": "Mindustry, but Minecraft",
+  "authors": [
+    "wiisportsresorts",
+    "notrealn"
+  ],
+  "contact": {
+    "sources": "https://github.com/gamer-gang/minduscraft",
+    "issues": "https://github.com/gamer-gang/minduscraft/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/minduscraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gamergang.Minduscraft"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
